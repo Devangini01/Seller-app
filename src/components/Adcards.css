@@ -15,36 +15,71 @@
 .table .card-description{
     text-align: center;
     font-size: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .section-cards {
     z-index: 3;
     position: relative;
 }
+.dates{
+	border:1px solid #ebeff2;
+	border-radius:5px;
+	padding:20px 0px;
+	margin:10px 20px;
+    margin-top: 0;
+	font-size:16px;
+	color:#ef5a62;
+	font-weight:600;	
+	overflow:auto;
+}
+
+.dates div{
+	float:left;
+	width:50%;
+	text-align:center;
+	position:relative;
+}
+.dates strong,
+.stats strong{
+	display:block;
+	color:#adb8c2;
+	font-size:15px;
+	font-weight:700;
+}
+.dates span{
+	width:1px;
+	height:40px;
+	position:absolute;
+	right:0;
+	top:0;	
+	background:#ebeff2;
+}
+.stats{
+	border-top:1px solid #ebeff2;
+	background:#f7f8fa;
+	overflow:auto;
+	padding:15px 0;
+	font-size:16px;
+	color:#59687f;
+	font-weight:600;
+	border-radius: 0 0 5px 5px;
+}
+.stats div{
+	border-right:1px solid #ebeff2;
+	width: 33.333%;
+	float:left;
+	text-align:center
+}
+
+.stats div:nth-of-type(3){border:none;}
 
 .section-gray {
     background: #f4f0ec;
     padding: 60px 0 30px 0;
 }
 
- .profile-overview {
-    padding: 10px;
-    position: relative;
-}
-
- .profile-overview p {
-    font-size: 15px;
-    font-weight: 600;
-    color: #777;
-    text-align: center;
-}
-
- .profile-overview h6 {
-    color: #273751;
-    font-weight: bold;
-    font-size: 15px;
-    text-align: center;
-}
-
+ 
 .card10 {
     display: inline-block;
     position: relative;

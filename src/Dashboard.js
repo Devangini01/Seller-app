@@ -4,11 +4,13 @@ import Card from "./components/Card";
 import Insights from "./components/Insights";
 import Transaction from "./components/Transaction";
 import Insitd from "./components/Insitd";
+import Adcards from "./components/Adcards";
+import DashAds from "./components/DashAds";
 
 const Home = () => {
   return (
-    <div className="home">
-      <div className="content">
+    <div className="home100">
+      <div className="content100" style={{marginTop:100}}>
         <div className="row">
           <div className="col-lg-3">
             <div className="card bg-c-blue1 ">
@@ -28,11 +30,11 @@ const Home = () => {
         <h4>Insights Till Date </h4>
         <Insights />
       </div>
-      <div className="one">
-        <h4>Most Viewed Stores</h4>
-        <Card />
+      <div className="one"  style={{ marginTop: 30 }}>
+        <h4>Live Ads</h4>
+        <DashAds/>
       </div>
-      <div className="one">
+      <div className="one"  style={{ marginTop: 30 }}>
         <h4>Most Visited Stores</h4>
         <Card />
       </div>

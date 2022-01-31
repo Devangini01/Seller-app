@@ -17,7 +17,7 @@ const Profile = () => {
           </div>
         </div>
         <div className="mt-3">
-          <h4 className="font-13 text-uppercase">About Me :</h4>
+         
 
           <p className="text-muted mb-2 font-13">
             <strong>Full Name :</strong>{" "}

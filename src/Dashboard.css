@@ -45,8 +45,15 @@ h4 {
 .home{
     flex: 4;
     padding: 0 80px;
-    margin-top: 100px;
+    
     overflow-x: hidden;
+    overflow-y: hidden;
+}
+.home100{
+  
+   
+  margin-top: 100;
+  overflow-x: hidden;
     overflow-y: hidden;
 }
 

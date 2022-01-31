@@ -4,13 +4,13 @@ import data from "../data";
 
 const Card = () => {
   return (
-    <div>
+    <div className="home">
       <div className="content">
         <div className="row">
           {data.stores1.map((store1) => {
             return (
               <div className="col-lg-4 ">
-                <div className={"card " + store1.color + " order-card"}>
+                <div className={"card99 " + store1.color + " order-card"}>
                   <div className="card-block">
                     <div className="row">
                       <div className="col-6">
@@ -28,7 +28,7 @@ const Card = () => {
                     </div>
                     <div className="row" style={{ marginTop: 30 }}>
                       <div className="col-6">
-                        <p className="m-b-0 text">Total Views</p>
+                        <p className="m-b-0 text">Total Coupons</p>
                       </div>
                       <div className="col-6">
                         <span style={{ float: "right" }} className="view">

@@ -514,4 +514,58 @@ const content1 = [
   },
  
 ]
-export default {stores1,data1,data2,history,transaction,content,content1,storetable,insi,tdinsitd};
+
+
+const content2 = [
+  {
+    info:"Buy one get one free",
+     caption:"Quisque id elit maximus, pretium diam at mollis elit",
+    desc:" On sweets",
+    pro1:"Store",
+    date1:"Mango",
+    pro2:"Category",
+    date2:"Food",
+    pro3:"Views",
+    pro4:"Coupons",
+    count:"5",
+  },
+  {
+    info:"Buy one get one free",
+     caption:"Quisque id elit maximus, pretium diam at mollis elit",
+    desc:" On sweets",
+    pro1:"Store",
+    date1:"Mango",
+    pro2:"Category",
+    date2:"Food",
+    pro3:"Views",
+    pro4:"Coupons",
+    count:"5",
+   
+  },
+  {
+    info:"Buy one get one free",
+    caption:"Quisque id elit maximus, pretium diam at mollis elit",
+   desc:" On sweets",
+   pro1:"Store",
+   date1:"Mango",
+   pro2:"Category",
+   date2:"Food",
+   pro3:"Views",
+   pro4:"Coupons",
+   count:"5",
+  
+  },
+  {
+    info:"Buy one get one free",
+     caption:"Quisque id elit maximus, pretium diam at mollis elit",
+    desc:" On sweets",
+    pro1:"Store",
+    date1:"Mango",
+    pro2:"Category",
+    date2:"Food",
+    pro3:"Views",
+    pro4:"Coupons",
+    count:"5",
+  },
+]
+export default {stores1,data1,data2,history,transaction,content,content1,content2,storetable,insi,tdinsitd};

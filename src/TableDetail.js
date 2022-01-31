@@ -25,25 +25,22 @@ const TableDetail = () => {
           </button>
       </div>
 
+    
       <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <Profile />
           </div>{" "}
-          
-          <div className="col-md-7" style={{ marginLeft: 20 }}>
+         
+          <div className="col-md-8"  >
             
-            <div className="one">
-              <h4>Insights Today</h4>
-              <div className="row">
-                <Tdinsitd />
-              </div>
-            </div>
+            
             <div className="one">
               <h4>Insights Till Date</h4>
             </div>
             <div className="row">
               <Insi />
             </div>
+
           </div>
         </div>
       </div>

@@ -2,12 +2,12 @@ import React from "react";
 import "./Adcards.css";
 import Gallery from "./Gallery";
 import data from "../data";
-const Adcards = () => {
+const DashAds = () => {
   return (
     <div className="cards-2 section-gray">
       <div className="container">
         <div className="row">
-          {data.content1.map((ad) => {
+          {data.content2.map((ad) => {
             return (
               <div className="col-md-3">
                 <div className="card10 card10-blog">
@@ -46,40 +46,12 @@ const Adcards = () => {
     <strong>DECLINED</strong> 182
   </div>
 </div>
-
-                  {/* <div className="row">
-                    <div className="col-md-6">
-                      <div className="profile-overview">
-                        <p>{ad.pro1}</p>
-                        <h6>{ad.date1}</h6>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="profile-overview">
-                        <p>{ad.pro2}</p>
-                        <h6>{ad.date2}</h6>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="profile-overview">
-                        <p>{ad.pro3}</p>
-                        <h6>{ad.count}</h6>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="profile-overview">
-                        <p>{ad.pro4}</p>
-                        <h6>{ad.count}</h6>
-                      </div>
-                    </div> */}
                     <div className="row" style={{ marginBottom: 10 }}>
                       <Gallery />
                     </div>
                   </div>
                 </div>
-             
+              
             );
           })}
         </div>
@@ -88,4 +60,4 @@ const Adcards = () => {
   );
 };
 
-export default Adcards;
+export default DashAds;

@@ -32,8 +32,7 @@
 .text-up {
   text-transform: uppercase; }
 
-.br-0 {
-  border: none !important; }
+
 
 .black-rgba {
   background-color: rgba(0, 0, 0, 0.15) !important; }
@@ -123,16 +122,14 @@
 .text-up {
   text-transform: uppercase; }
 
-.br-0 {
-  border: none !important; }
+
 
 
 
 .inline-block {
   display: inline-block; }
 
-.mb-15 {
-  margin-bottom: 15px; }
+
 
 
 
@@ -142,10 +139,10 @@
   width: 100%; }
 
 .card {
-  margin-bottom: 1.875em;
+ 
   border-radius: 5px;
   padding: 0;
-  border: 0px solid transparent;
+  border: 1px solid transparent;
   box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
@@ -185,15 +182,15 @@
   margin: 0 auto;
   position: absolute;
   right: 0;
-  width: 1px; }
+  width: 1px;
+ }
 
 
 
-.card .dropdown.float-right .dropdown-menu {
-  left: inherit !important;
-  right: 0 !important;
-  top: 93% !important; }
 
-
+.font-large-2{
+  font-size: 70px;
+  font-weight: bold;
+}
 
 

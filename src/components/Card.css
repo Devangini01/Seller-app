@@ -1,6 +1,6 @@
 .content {
   float: left;
-  padding: 1.875em;
+ 
   width: 100%; }
   
 .order-card {
@@ -31,7 +31,7 @@
 .bg-strong-bliss {
     background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%) !important; }
 
-.card {
+.card99 {
   border-radius: 5px;
   -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
   box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
@@ -47,7 +47,7 @@
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
 }
 
-.card .card-block {
+.card99 .card-block {
   padding: 25px;
   
 }

@@ -11,7 +11,7 @@ const Gallery = () => {
   return (
     <div>
       <div className="d-flex align-items-center justify-content-center">
-        <Button className="btn1" onClick={handleShow} style={{ Color: "#000" }}>
+        <Button onClick={handleShow} style={{ Color: "#000" }}>
           Gallery
         </Button>
       </div>

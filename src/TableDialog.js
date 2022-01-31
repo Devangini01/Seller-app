@@ -28,7 +28,7 @@ const TableDialog = () => {
                 <th className="cell100 column7">Category</th>
                 <th className="cell100 column8">Live Ads</th>
                 <th className="cell100 column9">Total Coupons</th>
-                <th className="cell100 column10">Total Views</th>
+                
               </tr>
             </thead>
           </table>
@@ -50,7 +50,7 @@ const TableDialog = () => {
                 <td className="cell100 column7">{st.category}</td>
                 <td className="cell100 column8">{st.ads}</td>
                 <td className="cell100 column9">{st.coupons}</td>
-                <td className="cell100 column10">{st.views}</td>
+               
               </tr>
                  );
                 })}
