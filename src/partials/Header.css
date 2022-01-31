@@ -1,0 +1,25 @@
+
+
+.navbar .nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar .nav-item a :hover{
+  color: #56BCF5;
+}
+a span{
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  font-style:"Varela Round";
+}
+.nav-link span{
+  font-size:16px;
+  font-weight: bold;
+}
+.nav-title{
+  margin-left:32%;
+  color: #fff;
+  font-weight: bolder;
+
+}
