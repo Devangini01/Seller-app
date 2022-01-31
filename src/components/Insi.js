@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../data";
-import './Insi.css'
+import "./Insi.css";
 const Insi = () => {
   return (
     // <div className="card1">
@@ -22,93 +22,64 @@ const Insi = () => {
     //     </div>
     //   </div>
     // </div>
-    
 
-<div >
-  <div className="row ">
-    <div className=" col-md-4">
-      <div className="card77 l-bg-blue-dark">
-        <div className="card-statistic-3 p-4">
-          <div className="card-icon card-icon-large"><i className="fas fa-shopping-cart" /></div>
-          <div className="mb-4">
-            <h5 className="card-title mb-0">Active ads</h5>
-          </div>
-          <div className="row align-items-center mb-2 d-flex">
-            <div className="col-8">
-              <h2 className="d-flex align-items-center mb-0">
-                3,243
-              </h2>
+    <div>
+      <div className="row ">
+        <div className=" col-md-4">
+          <div className="card77 l-bg-blue-dark">
+            <div className="card-statistic-3 p-4">
+              <div className="card-icon card-icon-large">
+                <i className="fas fa-shopping-cart" />
+              </div>
+              <div className="mb-4">
+                <h5 className="card-title mb-0">Active ads</h5>
+              </div>
+              <div className="row align-items-center mb-2 d-flex">
+                <div className="col-8">
+                  <h2 className="d-flex align-items-center mb-0">3,243</h2>
+                </div>
+              </div>
             </div>
-            
-          </div>
           </div>
         </div>
-      </div>
-    
-    {/* <div className="row ">
-    <div className=" col-lg-6">
-      <div className="card77 l-bg-blue-dark">
-        <div className="card-statistic-3 p-4">
-          <div className="card-icon card-icon-large"><i className="fas fa-users" /></div>
-          <div className="mb-4">
-            <h5 className="card-title mb-0">Customers</h5>
-          </div>
-          <div className="row align-items-center mb-2 d-flex">
-            <div className="col-8">
-              <h2 className="d-flex align-items-center mb-0">
-                15.07k
-              </h2>
+
+        <div className=" col-md-4">
+          <div className="card77 l-bg-green-dark">
+            <div className="card-statistic-3 p-4">
+              <div className="card-icon card-icon-large">
+                <i className="fas fa-ticket-alt" />
+              </div>
+              <div className="mb-4">
+                <h5 className="card-title mb-0">Coupons claimed</h5>
+              </div>
+              <div className="row align-items-center mb-2 d-flex">
+                <div className="col-8">
+                  <h2 className="d-flex align-items-center mb-0">578</h2>
+                </div>
+              </div>
             </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </div> */}
-    
-    <div className=" col-md-4">
-      <div className="card77 l-bg-green-dark">
-        <div className="card-statistic-3 p-4">
-          <div className="card-icon card-icon-large"><i className="fas fa-ticket-alt" /></div>
-          <div className="mb-4">
-            <h5 className="card-title mb-0">Coupons claimed</h5>
-          </div>
-          <div className="row align-items-center mb-2 d-flex">
-            <div className="col-8">
-              <h2 className="d-flex align-items-center mb-0">
-                578
-              </h2>
-            </div>
-            
-          </div>
           </div>
         </div>
-      </div>
-     {/* </div>
-    <div className="row">  */}
-    <div className=" col-md-4">
-      <div className="card77 l-bg-orange-dark">
-        <div className="card-statistic-3 p-4">
-          <div className="card-icon card-icon-large"><i className="fas fa-dollar-sign" /></div>
-          <div className="mb-4">
-            <h5 className="card-title mb-0">Wallet Today</h5>
-          </div>
-          <div className="row align-items-center mb-2 d-flex">
-            <div className="col-8">
-              <h2 className="d-flex align-items-center mb-0">
-                $11.61k
-              </h2>
+
+        <div className=" col-md-4">
+          <div className="card77 l-bg-orange-dark">
+            <div className="card-statistic-3 p-4">
+              <div className="card-icon card-icon-large">
+                <i className="fas fa-dollar-sign" />
+              </div>
+              <div className="mb-4">
+                <h5 className="card-title mb-0">Wallet Today</h5>
+              </div>
+              <div className="row align-items-center mb-2 d-flex">
+                <div className="col-8">
+                  <h2 className="d-flex align-items-center mb-0">$11.61k</h2>
+                </div>
+              </div>
             </div>
-            
           </div>
-          
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-
   );
 };
 

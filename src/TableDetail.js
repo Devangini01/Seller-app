@@ -2,12 +2,11 @@ import React from "react";
 import "./TableDetail.css";
 import { useHistory } from "react-router-dom";
 import TDHistory from "./components/TDHistory";
-import Gallery from "./components/Gallery";
 import Adcards from "./components/Adcards";
 import Insi from "./components/Insi";
 import Profile from "./components/Profile";
-import data from "./data";
-import Tdinsitd from "./components/Tdinsitd";
+
+
 const TableDetail = () => {
   const history = useHistory();
 
@@ -23,24 +22,19 @@ const TableDetail = () => {
             {" "}
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
           </button>
-      </div>
+        </div>
 
-    
-      <div className="row">
+        <div className="row">
           <div className="col-md-3">
             <Profile />
           </div>{" "}
-         
-          <div className="col-md-8"  >
-            
-            
+          <div className="col-md-8">
             <div className="one">
               <h4>Insights Till Date</h4>
             </div>
             <div className="row">
               <Insi />
             </div>
-
           </div>
         </div>
       </div>
@@ -49,14 +43,12 @@ const TableDetail = () => {
         <h4>Live Ads</h4>
         <Adcards />
       </div>
-    
 
       <div className="one" style={{ marginTop: 20 }}>
         <h4>History</h4>
         <TDHistory />
       </div>
-</div>
-      
+    </div>
   );
 };
 

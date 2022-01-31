@@ -10,15 +10,13 @@ const Header = () => {
       style={{ background: "#232323" }}
     >
       <div className="container">
-        <div   onClick={() => {
-                history.push("/Dashboard");
-              }}>
+        <div
+          onClick={() => {
+            history.push("/Dashboard");
+          }}
+        >
           <a href="">
-            <img
-              src="/images/logo.png"
-              height={40}
-            
-            />
+            <img src="/images/logo.png" height={40} />
             <span style={{ marginLeft: 10 }}>Citybubble</span>
           </a>
         </div>
@@ -53,7 +51,6 @@ const Header = () => {
               style={{ marginLeft: 30 }}
             >
               <a
-                
                 className="nav-link d-flex flex-column text-center"
                 aria-current="page"
                 href="#"

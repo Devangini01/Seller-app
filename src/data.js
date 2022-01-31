@@ -428,37 +428,40 @@ views : "6",
 
 const insi = [
   {
-     heading : "Total Ads",
+     heading : "Active Ads",
      count : "45",
-    
-  },
-  {
-    heading : "Total Views",
-    count : "45",
-   
+     icon: "fas fa-shopping-cart",
+     colo:"l-bg-blue-dark",
   },
   {
     heading : "Total Coupons",
     count : "45",
-  
+    icon:"fas fa-ticket-alt",
+    color:"l-bg-green-dark",
+  },
+  {
+    heading : "Wallet",
+    count : "$11.61k",
+    icon: "fas fa-dollar-sign",
+    color:"l-bg-orange-dark",
   },
  
 ]
 
-const tdinsitd = [
-  {
-     heading : "Active Ads",
-     count : "45",
+// const tdinsitd = [
+//   {
+//      heading : "Active Ads",
+//      count : "45",
     
-  },
+//   },
   
-  {
-    heading : "Total Coupons",
-    count : "45",
+//   {
+//     heading : "Total Coupons",
+//     count : "45",
   
-  },
+//   },
  
-]
+// ]
 
 
 const content1 = [
@@ -568,4 +571,4 @@ const content2 = [
     count:"5",
   },
 ]
-export default {stores1,data1,data2,history,transaction,content,content1,content2,storetable,insi,tdinsitd};
+export default {stores1,data1,data2,history,transaction,content,content1,content2,storetable,insi};

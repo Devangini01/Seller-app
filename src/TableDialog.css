@@ -1,51 +1,4 @@
-/*//////////////////////////////////////////////////////////////////
-[ Scroll bar ]*/
-/* .js-pscroll {
-  position: relative;
-  overflow: hidden;
-}
 
-.table100 .ps__rail-y {
-  width: 9px;
-  background-color: transparent;
-  opacity: 1 !important;
-  right: 5px;
-}
-
-.table100 .ps__rail-y::before {
-  content: "";
-  display: block;
-  position: absolute;
-  background-color: #ebebeb;
-  border-radius: 5px;
-  width: 100%;
-  height: calc(100% - 30px);
-  left: 0;
-  top: 15px;
-}
-
-.table100 .ps__rail-y .ps__thumb-y {
-  width: 100%;
-  right: 0;
-  background-color: transparent;
-  opacity: 1 !important;
-}
-
-.table100 .ps__rail-y .ps__thumb-y::before {
-  content: "";
-  display: block;
-  position: absolute;
-  background-color: #cccccc;
-  border-radius: 5px;
-  width: 100%;
-  height: calc(100% - 30px);
-  left: 0;
-  top: 15px;
-} */
-
-
-/*//////////////////////////////////////////////////////////////////
-[ Table ]*/
 .search{
     width:25%;
     border: 1px solid #000;
@@ -88,8 +41,6 @@
   width: 1000px;
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ Table ]*/
 .table1001 {
   background-color: #fff;
 }
@@ -135,8 +86,7 @@ th, td {
   padding-bottom: 16px;
 }
 
-/*==================================================================
-[ Fix header ]*/
+
 .table100 {
   position: relative;
   padding-top: 60px;
@@ -155,8 +105,7 @@ th, td {
 }
 
 
-/*==================================================================
-[ Ver1 ]*/
+
 .table100.ver10 tr:hover td {
   background-color: #ebebeb;
   cursor: pointer;
@@ -186,7 +135,7 @@ th, td {
   background-color: #f8f6ff;
 }
 
-/*---------------------------------------------*/
+
 
 .table100.ver10 {
   border-radius: 10px;
@@ -198,14 +147,4 @@ th, td {
   -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
 
-/* .table100.ver1 .ps__rail-y {
-  right: 5px;
-}
 
-.table100.ver1 .ps__rail-y::before {
-  background-color: #ebebeb;
-}
-
-.table100.ver1 .ps__rail-y .ps__thumb-y::before {
-  background-color: #cccccc;
-} */

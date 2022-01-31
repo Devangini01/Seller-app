@@ -25,17 +25,17 @@ const Insitd = () => {
                           </div>
                         </div>
                       </div> */}
-                       <div className="media align-items">
-            <div className="p-2 media-body text-left">
-              <h5>{data.heading}</h5>
-              <h5 className="text-bold-400 mb-0">{data.count}</h5>
-            </div>
-            <div className={"iconi " + data.color} >
-            <div className=" text-center ">
-              <i className={data.icon + " font-large-2 "}></i>
-            </div>
-            </div>
-          </div>
+                      <div className="media align-items">
+                        <div className="p-2 media-body text-left">
+                          <h5>{data.heading}</h5>
+                          <h5 className="text-bold-400 mb-0">{data.count}</h5>
+                        </div>
+                        <div className={"iconi " + data.color}>
+                          <div className=" text-center ">
+                            <i className={data.icon + " font-large-2 "}></i>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -45,8 +45,6 @@ const Insitd = () => {
         </div>
       </div>
     </div>
-    
-
   );
 };
 

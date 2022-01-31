@@ -17,8 +17,6 @@ const Profile = () => {
           </div>
         </div>
         <div className="mt-3">
-         
-
           <p className="text-muted mb-2 font-13">
             <strong>Full Name :</strong>{" "}
             <span className="ms-2">Geneva D. McKnight</span>
