@@ -4,12 +4,12 @@ import Gallery from "./Gallery";
 import data from "../data";
 const Adcards = () => {
   return (
-    <div className="cards-2 section-gray">
+    <div className="cards-2 section-g">
       <div className="container">
         <div className="row">
           {data.content1.map((ad) => {
             return (
-              <div className="col-md-3">
+              <div className=" col-md-3">
                 <div className="card10 card10-blog">
                   <div className="card10-image">
                     <a href="#">
@@ -45,7 +45,7 @@ const Adcards = () => {
                       <strong>{ad.pro4}</strong> {ad.count}
                     </div>
                     <div>
-                      <strong>DECLINED</strong> 182
+                      <strong>{ad.pro5}</strong>{ad.rate}
                     </div>
                   </div>
 

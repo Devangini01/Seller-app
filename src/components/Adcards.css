@@ -1,7 +1,6 @@
 .table .info  {
     position: relative;
     padding: 0;
-    margin-top:20px;
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -12,11 +11,12 @@
     transition: all 0.4s ease 0s;
   }
 
-.table .card-description{
+ .table .card-description{
     text-align: center;
     font-size: 15px;
     margin-bottom: 0;
     padding-bottom: 0;
+    font-size: 15px;
 }
 .section-cards {
     z-index: 3;
@@ -25,11 +25,11 @@
 .dates{
 	border:1px solid #ebeff2;
 	border-radius:5px;
-	padding:20px 0px;
-	margin:10px 20px;
+	padding:2px 0px;
+	margin:5px 20px;
     margin-top: 0;
 	font-size:16px;
-	color:#ef5a62;
+	color:#4660f5;
 	font-weight:600;	
 	overflow:auto;
 }
@@ -40,7 +40,12 @@
 	text-align:center;
 	position:relative;
 }
-.dates strong,
+.dates strong{
+    display:block;
+	color:#000;
+	font-size:15px;
+	font-weight:700;
+}
 .stats strong{
 	display:block;
 	color:#adb8c2;
@@ -75,10 +80,13 @@
 .stats div:nth-of-type(3){border:none;}
 
 .section-gray {
-    background: #f4f0ec;
+    
     padding: 60px 0 30px 0;
 }
-
+.section-g {
+    background:#E5E4E2;
+    padding: 60px 0 30px 0px;
+}
  
 .card10 {
     display: inline-block;
@@ -99,6 +107,7 @@
     margin-right: 15px;
     margin-top: -30px;
     border-radius: 6px;
+    cursor: pointer;
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 

@@ -12,7 +12,7 @@ const stores1 = [
     id: "1st",
     name: "Wonder Woman",
     views: "12",
-    icon: "fa fa-cart-plus f-left",
+    icon: "fa fa-rocket f-left",
   },
   {
     id: "2nd",
@@ -53,6 +53,7 @@ const data1 = [
     icon : "pe-7s-gift",
     color: "flat-color-3",
   },
+  
  
 ]
 
@@ -431,7 +432,7 @@ const insi = [
      heading : "Active Ads",
      count : "45",
      icon: "fas fa-shopping-cart",
-     colo:"l-bg-blue-dark",
+     color:"l-bg-blue-dark",
   },
   {
     heading : "Total Coupons",
@@ -475,7 +476,10 @@ const content1 = [
     date2:"3rd Feb",
     pro3:"Views",
     pro4:"Coupons",
-    count:"5",
+      pro5:"Rating",
+     rate:"4.5⭐",
+      count:"5",
+    
   },
   {
     info:"Buy one get one free",
@@ -488,7 +492,10 @@ const content1 = [
     pro3:"Views",
     pro4:"Coupons",
     count:"5",
-   
+   pro5:"Rating",
+  rate:"4.5⭐",
+
+    
   },
   {
     info:"Buy one get one free",
@@ -501,7 +508,10 @@ const content1 = [
    pro3:"Views",
    pro4:"Coupons",
    count:"5",
-  
+  pro5:"Rating",
+ rate:"4.5⭐",
+
+   
   },
   {
     info:"Buy one get one free",
@@ -514,6 +524,9 @@ const content1 = [
     pro3:"Views",
     pro4:"Coupons",
     count:"5",
+    pro5:"Rating",
+   rate:"4.5⭐",
+
   },
  
 ]
@@ -531,6 +544,8 @@ const content2 = [
     pro3:"Views",
     pro4:"Coupons",
     count:"5",
+    pro5:"Rating",
+   rate:"4.5⭐",
   },
   {
     info:"Buy one get one free",
@@ -543,6 +558,8 @@ const content2 = [
     pro3:"Views",
     pro4:"Coupons",
     count:"5",
+    pro5:"Rating",
+   rate:"4.5⭐",
    
   },
   {
@@ -556,19 +573,25 @@ const content2 = [
    pro3:"Views",
    pro4:"Coupons",
    count:"5",
+   pro5:"Rating",
+   rate:"4.5⭐",
   
   },
   {
     info:"Buy one get one free",
-     caption:"Quisque id elit maximus, pretium diam at mollis elit",
-    desc:" On sweets",
-    pro1:"Store",
-    date1:"Mango",
-    pro2:"Category",
-    date2:"Food",
-    pro3:"Views",
-    pro4:"Coupons",
-    count:"5",
+    caption:"Quisque id elit maximus, pretium diam at mollis elit",
+   desc:" On sweets",
+   pro1:"Store",
+   date1:"Mango",
+   pro2:"Category",
+   date2:"Food",
+   pro3:"Views",
+   pro4:"Coupons",
+   count:"5",
+   pro5:"Rating",
+   rate:"4.5⭐",
+  
   },
+  
 ]
 export default {stores1,data1,data2,history,transaction,content,content1,content2,storetable,insi};

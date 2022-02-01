@@ -32,7 +32,7 @@ const Insi = () => {
                 <i className="fas fa-shopping-cart" />
               </div>
               <div className="mb-4">
-                <h5 className="card-title mb-0">Active ads</h5>
+                <h5 className="card-title mb-0">Active Ads</h5>
               </div>
               <div className="row align-items-center mb-2 d-flex">
                 <div className="col-8">
@@ -50,7 +50,7 @@ const Insi = () => {
                 <i className="fas fa-ticket-alt" />
               </div>
               <div className="mb-4">
-                <h5 className="card-title mb-0">Coupons claimed</h5>
+                <h5 className="card-title mb-0">Coupons Claimed</h5>
               </div>
               <div className="row align-items-center mb-2 d-flex">
                 <div className="col-8">
@@ -68,11 +68,11 @@ const Insi = () => {
                 <i className="fas fa-dollar-sign" />
               </div>
               <div className="mb-4">
-                <h5 className="card-title mb-0">Wallet Today</h5>
+                <h5 className="card-title mb-0">Wallet</h5>
               </div>
               <div className="row align-items-center mb-2 d-flex">
                 <div className="col-8">
-                  <h2 className="d-flex align-items-center mb-0">$11.61k</h2>
+                  <h2 className="d-flex align-items-center mb-0">₹11.61k</h2>
                 </div>
               </div>
             </div>

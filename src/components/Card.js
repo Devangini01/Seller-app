@@ -26,7 +26,7 @@ const Card = () => {
                         <span style={{ float: "right" }}>{store1.id}</span>
                       </div>
                     </div>
-                    <div className="row" style={{ marginTop: 30 }}>
+                    <div className="row" style={{ marginTop: 30}}>
                       <div className="col-6">
                         <p className="m-b-0 text">Total Coupons</p>
                       </div>

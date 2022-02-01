@@ -31,7 +31,11 @@ const Home = () => {
         <Insights />
       </div>
       <div className="one" style={{ marginTop: 30 }}>
-        <h4>Live Ads</h4>
+        <h4>Top Viewed Ads</h4>
+        <DashAds />
+      </div>
+      <div className="one" style={{ marginTop: 30 }}>
+        <h4>Top Availed Ads</h4>
         <DashAds />
       </div>
       <div className="one" style={{ marginTop: 30 }}>

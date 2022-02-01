@@ -11,11 +11,11 @@ const Gallery = () => {
   return (
     <div>
       <div className="d-flex align-items-center justify-content-center">
-        <Button onClick={handleShow} style={{ Color: "#000" }}>
+        <Button onClick={handleShow} >
           Gallery
         </Button>
       </div>
-      <Modal dialogClassName="my-modal" show={showModal} onHide={handleClose}>
+      <Modal size="lg" aria-labelledby="example-modal-sizes-title-lg"  show={showModal} onHide={handleClose}>
         <Modal.Body>
           <Modal.Header closeButton style={{ Color: "#000" }}></Modal.Header>
           <div

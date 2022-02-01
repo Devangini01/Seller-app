@@ -7,17 +7,13 @@ const DashAds = () => {
     <div className="cards-2 section-gray">
       <div className="container">
         <div className="row">
+            
           {data.content2.map((ad) => {
             return (
               <div className="col-md-3">
                 <div className="card10 card10-blog">
                   <div className="card10-image">
-                    <a href="#">
-                      {" "}
-                      <img
-                        className="img img-raised"
-                        src="/images/coupon.jpg"
-                      />{" "}
+                    <a href="#">{" "}<img className="img img-raised" src="/images/coupon.jpg"/>{" "}
                     </a>
                     <div className="ripple-cont" />
                   </div>
@@ -45,7 +41,7 @@ const DashAds = () => {
                       <strong>{ad.pro4}</strong> {ad.count}
                     </div>
                     <div>
-                      <strong>DECLINED</strong> 182
+                      <strong>{ad.pro5}</strong>{ad.rate}
                     </div>
                   </div>
                   <div className="row" style={{ marginBottom: 10 }}>
