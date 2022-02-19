@@ -55,8 +55,9 @@ const RequestCoupon = () => {
         </div>
       </div></div>
     </div>
-    <div className="col-md-12">
-      <div className="coupon bg-white rounded mb-3 d-flex justify-content-between">
+    <div className="col-md-12 ">
+      <div className='voucher zig-zag-bottom'>
+      <div className="coupon bg-white rounded mb-3 d-flex justify-content-between  ">
         <div className="kiri p-3">
           <div className="icon-container ">
             {/* <div className="icon-container_box">
@@ -68,27 +69,42 @@ const RequestCoupon = () => {
           <div>
             {/* <span className="badge badge-success">Valid</span> */}
             <h3 className="lead">Buy one get one free</h3>
-            <p className="text-muted mb-0">Short info about voucher</p>
+            <div className='row'>
+            {/* <div className='col-6'>
+            <p className="text-muted mb-0">Devangini Shinde</p>
+            </div> */}
+            {/* <div className='col-6'>
+            <p className="text-muted mb-0"> 17th Feb,12:00</p>
+            </div> */}
+            </div>
+            
+            <p className="text-muted mb-0">Devangini Shinde</p>
+            <p className="text-muted mb-0"> 17th Feb,12:00</p>
+            <p className="text-muted mb-0">Bill Amt : 123</p>
+            <p className="text-muted mb-0">Bubble Cash :123</p>
+            
           </div>
         </div>
         <div className="kanan">
           <div className="info m-3 d-flex align-items-center">
             <div className="w-100">
               <div className="block">
-                <span className="time font-weight-light">
+                {/* <span className="time font-weight-light">
                   <span>19 days</span>
-                </span>
+                </span> */}<button type="button" class="btn btn-danger">Decline</button>
+                <button type="button" class="btn btn-success">Accept</button>
               </div>
-              <a href="https://www.totoprayogo.com" target="_blank" className="btn btn-sm btn-outline-danger btn-block">
+              {/* <a href="https://www.totoprayogo.com" target="_blank" className="btn btn-sm btn-outline-danger btn-block">
                 show
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
-      </div>
+      </div></div>
     </div>
-    <div className="col-md-12">
-      <div className="coupon bg-white rounded mb-3 d-flex justify-content-between">
+    <div className="col-md-12 ">
+      <div className='voucher zig-zag-bottom'>
+      <div className="coupon bg-white rounded mb-3 d-flex justify-content-between  ">
         <div className="kiri p-3">
           <div className="icon-container ">
             {/* <div className="icon-container_box">
@@ -100,24 +116,38 @@ const RequestCoupon = () => {
           <div>
             {/* <span className="badge badge-success">Valid</span> */}
             <h3 className="lead">Buy one get one free</h3>
-            <p className="text-muted mb-0">Short info about voucher</p>
+            <div className='row'>
+            {/* <div className='col-6'>
+            <p className="text-muted mb-0">Devangini Shinde</p>
+            </div> */}
+            {/* <div className='col-6'>
+            <p className="text-muted mb-0"> 17th Feb,12:00</p>
+            </div> */}
+            </div>
+            
+            <p className="text-muted mb-0">Devangini Shinde</p>
+            <p className="text-muted mb-0"> 17th Feb,12:00</p>
+            <p className="text-muted mb-0">Bill Amt : 123</p>
+            <p className="text-muted mb-0">Bubble Cash :123</p>
+            
           </div>
         </div>
         <div className="kanan">
           <div className="info m-3 d-flex align-items-center">
             <div className="w-100">
               <div className="block">
-                <span className="time font-weight-light">
+                {/* <span className="time font-weight-light">
                   <span>19 days</span>
-                </span>
+                </span> */}<button type="button" class="btn btn-danger">Decline</button>
+                <button type="button" class="btn btn-success">Accept</button>
               </div>
-              <a href="https://www.totoprayogo.com" target="_blank" className="btn btn-sm btn-outline-danger btn-block">
+              {/* <a href="https://www.totoprayogo.com" target="_blank" className="btn btn-sm btn-outline-danger btn-block">
                 show
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
-      </div>
+      </div></div>
     </div>
   </div>
 </div>
