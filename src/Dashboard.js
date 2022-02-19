@@ -40,7 +40,7 @@ const Home = () => {
       </div>
       <div className="one" style={{ marginTop: 30 }}>
         <h4>Most Visited Stores</h4>
-        <Card />
+        <Card /> 
       </div>
       <div className="one">
         <h4>Recent Transactions</h4>

@@ -16,7 +16,7 @@
     display: inline-block;
  }
     
-button {
+.button2 {
     display: block;
     border: solid white;
     border-width: 0 10px;

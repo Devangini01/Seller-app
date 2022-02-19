@@ -16,7 +16,10 @@ list-type-ulli, .socials {
 
 figure {
   margin: 0; }
-
+  
+  .main-2{
+ padding: 20px;
+}
 /* p {
   margin-bottom: 0px;
   font-size: 15px;
@@ -32,14 +35,15 @@ h2 {
   font-size: 36px; } */
 
 .main {
-  background-image: linear-gradient(to bottom, #56bcf5, #52c4f2, #57ccec, #63d3e6, #73d9e0);
+  background: linear-gradient(to bottom, #56bcf5, #52c4f2, #57ccec, #63d3e6, #73d9e0);
   padding: 150px 0;
+  overflow: hidden;
 overflow-x: hidden;
 overflow-y: hidden; }
 
 .clear {
   clear: both; }
-.button{
+.button1{
   border: 1px solid #000;
   border-radius: 10px;
   padding: 10px;
@@ -116,7 +120,7 @@ figure {
   color: #fff;
   border-bottom: none;
   width: auto;
-  padding: 15px 39px;
+  padding: 5px 5px;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
