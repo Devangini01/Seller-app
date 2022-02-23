@@ -177,9 +177,52 @@ views:"5",
 
 ]
 
+const columns = [
+  {
+    field: 'Store',
+    headerClassName: 'super-app-theme--header',
+    headerAlign: 'center',
+    width:220,
+    sortable: false,
+    disableColumnMenu:true,
+  },
+  {
+    field: 'Category',
+    headerClassName: 'super-app-theme--header',
+    headerAlign: 'center',
+    width:220,
+    sortable: false,
+    disableColumnMenu:true,
+  },
+  {
+      field: 'Date Time',
+      headerClassName: 'super-app-theme--header',
+      headerAlign: 'center',
+      width:220,
+      sortable: false,
+      disableColumnMenu:true,
+    },
+    {
+      field: 'Amount',
+      headerClassName: 'super-app-theme--header',
+      headerAlign: 'center',
+      width:203,
+      sortable: false,
+      disableColumnMenu:true,
+    },
+    {
+      field: 'Offer',
+      headerClassName: 'super-app-theme--header',
+      headerAlign: 'center',
+      width:220,
+      sortable: false,
+      disableColumnMenu:true,
+    },
+];
 
 
 const transaction = [
+  
   {
       name: "Monica",
       category : "food",
@@ -477,7 +520,7 @@ const content1 = [
     pro3:"Views",
     pro4:"Coupons",
       pro5:"Rating",
-     rate:"4.5⭐",
+     rate:"4.5",
       count:"5",
     
   },
@@ -493,7 +536,7 @@ const content1 = [
     pro4:"Coupons",
     count:"5",
    pro5:"Rating",
-  rate:"4.5⭐",
+  rate:"4.5",
 
     
   },
@@ -509,7 +552,7 @@ const content1 = [
    pro4:"Coupons",
    count:"5",
   pro5:"Rating",
- rate:"4.5⭐",
+ rate:"4.5",
 
    
   },
@@ -525,7 +568,7 @@ const content1 = [
     pro4:"Coupons",
     count:"5",
     pro5:"Rating",
-   rate:"4.5⭐",
+   rate:"4.5",
 
   },
  
@@ -545,7 +588,7 @@ const content2 = [
     pro4:"Coupons",
     count:"5",
     pro5:"Rating",
-   rate:"4.5⭐",
+   rate:"4.5",
   },
   {
     info:"Buy one get one free",
@@ -559,7 +602,7 @@ const content2 = [
     pro4:"Coupons",
     count:"5",
     pro5:"Rating",
-   rate:"4.5⭐",
+   rate:"4.5",
    
   },
   {
@@ -574,7 +617,7 @@ const content2 = [
    pro4:"Coupons",
    count:"5",
    pro5:"Rating",
-   rate:"4.5⭐",
+   rate:"4.5",
   
   },
   {
@@ -589,7 +632,7 @@ const content2 = [
    pro4:"Coupons",
    count:"5",
    pro5:"Rating",
-   rate:"4.5⭐",
+   rate:"4.5",
   
   },
   

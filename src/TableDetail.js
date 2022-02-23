@@ -5,6 +5,8 @@ import TDHistory from "./components/TDHistory";
 import Adcards from "./components/Adcards";
 import Insi from "./components/Insi";
 import Profile from "./components/Profile";
+import Pagination from "./components/Pagination";
+import Slider from "./components/Slider";
 
 
 const TableDetail = () => {
@@ -45,9 +47,14 @@ const TableDetail = () => {
       </div>
 
       <div className="one" style={{ marginTop: 20 }}>
-        <h4>History</h4>
-        <TDHistory />
-      </div>
+  <h4>History</h4>
+     <Slider />
+</div>
+
+<div className="one" style={{ marginTop: 20 }}>
+  <h4>Recent Transaction</h4>
+     <Pagination />
+</div>
     </div>
   );
 };

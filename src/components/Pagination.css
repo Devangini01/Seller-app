@@ -1,0 +1,11 @@
+.content-1{
+    margin-left: 150px;
+    padding: 4em;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.bg-c-gradient {
+    background: linear-gradient(to right, #56bcf5, #52c4f2, #57ccec, #63d3e6, #73d9e0) !important;
+  }
+  

@@ -7,6 +7,8 @@ import Insitd from "./components/Insitd";
 import Adcards from "./components/Adcards";
 import DashAds from "./components/DashAds";
 
+import Pagination from "./components/Pagination";
+
 const Home = () => {
   return (
     <div className="home100">
@@ -44,7 +46,7 @@ const Home = () => {
       </div>
       <div className="one">
         <h4>Recent Transactions</h4>
-        <Transaction />
+        <Pagination />
       </div>
     </div>
   );

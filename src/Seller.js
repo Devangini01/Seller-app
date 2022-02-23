@@ -1,11 +1,14 @@
 import React from 'react'
 import './Seller.css'
-import TDHistory from "./components/TDHistory";
+// import TDHistory from "./components/TDHistory";
 import Adcards from "./components/Adcards";
 import Insi from "./components/Insi";
 import Profile from "./components/Profile";
 import Header2 from './partials/Header2';
-import CouponCard from './components/CouponCard';
+// import CouponCard from './components/CouponCard';
+import Slider from './components/Slider';
+import Pagination from './components/Pagination';
+
 const Seller = () => {
   return (
       <div className='main100'>
@@ -32,7 +35,12 @@ const Seller = () => {
 
 <div className="one" style={{ marginTop: 20 }}>
   <h4>History</h4>
-  <CouponCard />
+     <Slider />
+</div>
+
+<div className="one" style={{ marginTop: 20 }}>
+  <h4>Recent Transaction</h4>
+     <Pagination />
 </div>
 </div>
   )
